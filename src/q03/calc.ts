@@ -4,9 +4,9 @@ const bInput = process.argv[4];
 
 const validOperators = ["add", "sub", "mul", "div"];
 
-// 1. ไม่มี operator
-if (!operator || operator.trim() === "") {
-  console.log("Invalid operator");
+// 1. ไม่มี argument เลย
+if (!operator) {
+  console.log("Invalid input");
   process.exit(0);
 }
 
@@ -57,4 +57,3 @@ switch (operator) {
     }
     break;
 }
-
