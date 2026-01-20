@@ -12,7 +12,7 @@ else{
             console.log('Bar');
         }
         else{
-            console.log(i);
+            console.log(`${i}`);
         }
         }
     }
