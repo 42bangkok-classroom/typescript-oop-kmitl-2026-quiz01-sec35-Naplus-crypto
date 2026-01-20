@@ -1,4 +1,4 @@
-# Quiz 2 - FooBar
+# Quiz 5 -- FooBar
 
 Create a TypeScript program that reads a number from the command line and prints a sequence from 1 to the given number. The program must replace numbers divisible by 3 with "Foo", numbers divisible by 7 with "Bar", and numbers divisible by both with "FooBar".
 
