@@ -1,6 +1,6 @@
 const input = process.argv[2];
 
-if (input === undefined) {
+if (input === undefined || input.length === 0) {
   process.exit(0);
 }
 
