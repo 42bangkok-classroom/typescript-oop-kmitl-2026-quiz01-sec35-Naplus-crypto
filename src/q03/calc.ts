@@ -6,7 +6,7 @@ const validOperators = ["add", "sub", "mul", "div"];
 
 // 1. ไม่มี operator
 if (!operator || operator.trim() === "") {
-  console.log("Invalid input");
+  console.log("Invalid operator");
   process.exit(0);
 }
 
