@@ -1,4 +1,4 @@
-# Quiz — Mirrored Rhombus Pattern
+# Quiz 7 — Mirrored Rhombus Pattern
 
 ## Description
 Create a TypeScript program that prints a right-shifted star (`*`) pattern.  
