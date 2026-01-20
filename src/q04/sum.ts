@@ -10,5 +10,5 @@ else {
   for (let i = 1; i <= n; i++) {
     sum += i;
   }
-  console.log('Sum: ' , sum);
+  console.log(`Sum: ${sum}`);
 }
