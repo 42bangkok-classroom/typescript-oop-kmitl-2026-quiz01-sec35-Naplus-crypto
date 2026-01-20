@@ -1,7 +1,7 @@
 const n: number = parseFloat(process.argv[2]);
 
 
-if (Number.isNaN(n) || n < 0 || !Number.isInteger(n)) {
+if (Number.isNaN(n) || n <= 0 || !Number.isInteger(n)) {
   console.log('Invalid Input');
 } 
 else {
